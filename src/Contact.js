@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import { Form, Button, Container, Row, Col } from "react-bootstrap";
 import emailjs from "emailjs-com";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../styles/ContactForm.css"; // Asegúrate de crear este archivo para estilos personalizados
-import FrameWoodWhite from "../components/FrameWoodWhite";
-import Footer from "../components/Footer";
-import Menu from "../components/Menu";
+import "./styles/ContactForm.css"; // Asegúrate de crear este archivo para estilos personalizados
+import FrameWoodWhite from "./components/FrameWoodWhite";
+import Footer from "./components/Footer";
+import Menu from "./components/Menu";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({

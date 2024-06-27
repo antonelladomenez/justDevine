@@ -1,15 +1,15 @@
 import React from "react";
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
-import "../styles/Home.css"; // Puedes crear un archivo CSS para estilos adicionales
-import portada from "../images/Background (5).png";
-import secondaryImage from "../images/Rectangle 18.png"; // Asegúrate de que la imagen esté en la ruta correcta
-import blueContainer from "../assets/Blueprint About 6.svg"; // Asegúrate de que la imagen esté en la ruta correcta
-import blueContainerPhone from "../assets/blueWoodPhone.svg"; // Asegúrate de que la imagen esté en la ruta correcta
-import iceCornImage from "../images/Rectangle 19.png";
-import woodFrame from "../images/frameWood.png";
-import woodFramePhone from "../images/frameWoodPhone.png";
-import GelatoCorn from "../components/gelatoCorn";
-import Menu from "../components/Menu";
+import "./styles/Home.css"; // Puedes crear un archivo CSS para estilos adicionales
+import portada from "./images/Background (5).png";
+import secondaryImage from "./images/Rectangle 18.png"; // Asegúrate de que la imagen esté en la ruta correcta
+import blueContainer from "./assets/Blueprint About 6.svg"; // Asegúrate de que la imagen esté en la ruta correcta
+import blueContainerPhone from "./assets/blueWoodPhone.svg"; // Asegúrate de que la imagen esté en la ruta correcta
+import iceCornImage from "./images/Rectangle 19.png";
+import woodFrame from "./images/frameWood.png";
+import woodFramePhone from "./images/frameWoodPhone.png";
+import GelatoCorn from "./components/gelatoCorn";
+import Menu from "./components/Menu";
 import "animate.css";
 
 const Home = () => {
