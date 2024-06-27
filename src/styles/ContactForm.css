@@ -1,0 +1,24 @@
+.contact-page {
+  padding-top: 20px;
+}
+
+.contact-form-container {
+  padding: 20px 0;
+}
+
+.contact-form-container h2 {
+  color: #7F6F62;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.contact-form-container p {
+  color: #7F6F62;
+  font-size: 16px;
+}
+
+.contact-form-container .form-label {
+  color: #7F6F62;
+}
+
+

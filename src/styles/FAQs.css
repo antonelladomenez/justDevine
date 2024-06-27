@@ -1,0 +1,41 @@
+.faq-container {
+  padding: 60px;
+}
+
+h2 {
+  color: #7F6F62;
+  font-weight: bold;
+  font-size: 46px;
+}
+
+.accordion-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #E7EDF4; /* Fondo del botón */
+  border: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.card {
+  background-color: #f8f9fa; /* Fondo de la tarjeta */
+  border: none;
+  border-radius: 0.5rem;
+}
+
+
+
+.bi-plus {
+  font-size: 1.5rem;
+  color: #6c757d; /* Color del icono + */
+}
+
+.accordion-item {
+  margin-bottom: 1rem; /* Ajusta el valor para más o menos espacio */
+}

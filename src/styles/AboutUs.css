@@ -1,0 +1,150 @@
+.custom-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-shrink: 0;
+  gap: 0;
+  position: relative;
+}
+
+.gelato-process {
+  width: 100%;
+  height: auto;
+  /* Ajustar según sea necesario */
+  display: block;
+}
+
+.custom-image {
+  width: 245px;
+  height: 286px;
+  flex-shrink: 0;
+}
+
+.smile-image {
+  position: absolute;
+  left: 80px;
+  bottom: -100px;
+}
+
+.animated-text-container {
+  width: 100%;
+  position: relative;
+  white-space: nowrap;
+}
+
+.animated-text {
+  animation: moveText 30s linear infinite;
+  color: #CBD7EB;
+  font-size: 85px;
+  font-weight: 800;
+  line-height: 105px;
+  text-transform: uppercase;
+}
+
+@keyframes moveText {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+.blue-aboutUs-image {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+  display: block;
+}
+
+.blue-aboutUs-phone {
+  display: none;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-video {
+  border: 18px solid #fff;
+  width: 500px;
+  height: 460px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .animated-text {
+    font-size: 56px;
+  }
+
+  .custom-row {
+    flex-wrap: wrap;
+  }
+
+  .custom-row .col-sm-6:nth-child(1),
+  .custom-row .col-sm-6:nth-child(2) {
+    flex: 0 0 50%;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  .custom-row .col-sm-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .animated-text {
+    font-size: 48px;
+  }
+
+  .custom-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .custom-row .col-sm-4 {
+    width: 100%;
+  }
+
+  .custom-row .col-sm-4:nth-child(1),
+  .custom-row .col-sm-4:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
+  .custom-row .col-sm-4:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .blue-aboutUs-image {
+    display: none;
+  }
+
+  .blue-aboutUs-phone {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .ml-md-5 {
+    margin-left: 0 !important;
+  }
+
+  .mr-md-5 {
+    margin-right: 0 !important;
+  }
+
+
+}
