@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import {
   Container,
   Row,
@@ -28,6 +28,25 @@ import FrameWoodWhite from "./components/FrameWoodWhite";
 import GelatoCorn from "./components/gelatoCorn";
 
 function AboutUs() {
+  const videoRef = useRef(null);
+  const [showControls, setShowControls] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 600) {
+        setShowControls(true);
+      } else {
+        setShowControls(false);
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+    handleResize(); // Check on initial load
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
   return (
     <div className="aboutUs">
       <Container fluid id="root">
@@ -77,17 +96,13 @@ function AboutUs() {
             </div>
           </Col>
         </Row>
-        <Row
-          className="gelatoProcess "
-          style={{ marginBottom: "0px" }}
-        >
+        <Row className="gelatoProcess " style={{ marginBottom: "0px" }}>
           <Col style={{ marginBottom: "0px" }}>
             <Image
               src={processIce}
               alt="Gelato Process"
               className="gelato-process"
             />
-           
           </Col>
         </Row>
 
@@ -146,16 +161,17 @@ function AboutUs() {
             className="d-flex justify-content-center align-items-center mb-4"
           >
             <video
+              ref={videoRef}
               className="custom-video"
               autoPlay
               loop
               muted
-              controls={false}
+              controls={showControls}
               disablePictureInPicture
               controlsList="nodownload nofullscreen noremoteplayback"
             >
               <source
-                src={`${process.env.PUBLIC_URL}/videos/gelatoProcessVideo.mp4`}
+                src={require("./assets/gelatoProcessVideo.mp4")}
                 type="video/mp4"
               />
               Your browser does not support the video tag.

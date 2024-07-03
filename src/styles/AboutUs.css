@@ -148,3 +148,67 @@
 
 
 }
+@media (min-width: 600px) {
+  .custom-video::-webkit-media-controls {
+    display: none !important;
+  }
+  .custom-video::-webkit-media-controls-play-button {
+    display: none !important;
+  }
+  .custom-video::-webkit-media-controls-start-playback-button {
+    display: none !important;
+  }
+  .custom-video::-webkit-media-controls-timeline {
+    display: none !important;
+  }
+  .custom-video::-webkit-media-controls-current-time-display {
+    display: none !important;
+  }
+  .custom-video::-webkit-media-controls-time-remaining-display {
+    display: none !important;
+  }
+  .custom-video::-webkit-media-controls-fullscreen-button {
+    display: none !important;
+  }
+  .custom-video::-webkit-media-controls-volume-slider {
+    display: none !important;
+  }
+  .custom-video::-webkit-media-controls-enclosure {
+    display: none !important;
+  }
+  .custom-video::-webkit-media-controls-panel {
+    display: none !important;
+  }
+
+  /* For Firefox */
+  .custom-video::-moz-media-controls {
+    display: none !important;
+  }
+  .custom-video::-moz-media-controls-play-button {
+    display: none !important;
+  }
+  .custom-video::-moz-media-controls-start-playback-button {
+    display: none !important;
+  }
+  .custom-video::-moz-media-controls-timeline {
+    display: none !important;
+  }
+  .custom-video::-moz-media-controls-current-time-display {
+    display: none !important;
+  }
+  .custom-video::-moz-media-controls-time-remaining-display {
+    display: none !important;
+  }
+  .custom-video::-moz-media-controls-fullscreen-button {
+    display: none !important;
+  }
+  .custom-video::-moz-media-controls-volume-slider {
+    display: none !important;
+  }
+  .custom-video::-moz-media-controls-enclosure {
+    display: none !important;
+  }
+  .custom-video::-moz-media-controls-panel {
+    display: none !important;
+  }
+}
