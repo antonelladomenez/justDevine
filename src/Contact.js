@@ -54,11 +54,11 @@ const ContactForm = () => {
               <p className="text-center mb-1">Let us know how we can help</p>
               <Form onSubmit={handleSubmit}>
                 <Form.Group controlId="formName" className="mb-2">
-                  <Form.Label>Name</Form.Label>
                   <Form.Control
                     className="div-4 form-control-custom"
                     type="text"
                     name="name"
+                    placeholder="Name"
                     value={formData.name}
                     onChange={handleChange}
                     required
@@ -66,23 +66,23 @@ const ContactForm = () => {
                 </Form.Group>
 
                 <Form.Group controlId="formEmail" className="mb-2">
-                  <Form.Label>Email</Form.Label>
                   <Form.Control
                     className="div-4 form-control-custom"
                     type="email"
                     name="email"
+                    placeholder="Email"
                     value={formData.email}
                     onChange={handleChange}
                     required
                   />
                 </Form.Group>
                 <Form.Group controlId="formMessage" className="mb-2">
-                  <Form.Label>Message</Form.Label>
                   <Form.Control
                     className="div-4 form-control-custom"
                     as="textarea"
                     rows={5}
                     name="message"
+                    placeholder="Message"
                     value={formData.message}
                     onChange={handleChange}
                     required
