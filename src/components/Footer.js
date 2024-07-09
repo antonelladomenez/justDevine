@@ -42,7 +42,7 @@ const Footer = () => {
             <p className="company-desk" style={{ fontSize: "12px" }}>
               @ Just Devine Gelato | Site by{" "}
               <a
-                href="https://www.instagram.com/fancyitsolutions"
+                href="https://fancyitsolutions.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
