@@ -3,7 +3,7 @@ import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import "./styles/Home.css"; // Puedes crear un archivo CSS para estilos adicionales
 import portada from "./images/Background (5).png";
 import secondaryImage from "./images/Rectangle 18.png"; // Asegúrate de que la imagen esté en la ruta correcta
-import blueContainer from "./images/Blueprint-About-6"; // Asegúrate de que la imagen esté en la ruta correcta
+import blueContainer from "./images/Blueprint-About-6.png"; // Asegúrate de que la imagen esté en la ruta correcta
 import blueContainerPhone from "./assets/blueWoodPhone.svg"; // Asegúrate de que la imagen esté en la ruta correcta
 import iceCornImage from "./images/Rectangle 19.png";
 import woodFrame from "./images/frameWood.png";
