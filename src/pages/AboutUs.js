@@ -8,24 +8,24 @@ import {
   Card,
   Button,
 } from "react-bootstrap";
-import woodFrame1 from "./images/frameWood.png";
-import woodFramePhone from "./images/frameWoodPhone.png";
-import "./styles/AboutUs.css";
-import Menu from "./components/Menu";
-import image1 from "./images/Agos.png";
-import image2 from "./images/deffff.png";
-import image3 from "./images/girls4.png";
-import smile from "./images/smile.png";
-import processIce from "./images/gelatoProcess.png";
-import blueContainer from "./assets/blueWood.svg";
-import blueContainerPhone from "./assets/blueWoodPhoneOriginal.svg";
-import lemonPhoto from "./images/lemonAbout.png";
-import pinkFrame from "./assets/pinkWood.svg";
-import pinkFramePhone from "./assets/pinkWoodPhone.svg";
-import bananaFarm from "./images/farmBanana.png";
-import cornAbout from "./images/cornAboutUs.png";
-import FrameWoodWhite from "./components/FrameWoodWhite";
-import GelatoCorn from "./components/gelatoCorn";
+import woodFrame1 from "../images/frameWood.png";
+import woodFramePhone from "../images/frameWoodPhone.png";
+import "../styles/AboutUs.css";
+import Menu from "../components/Menu";
+import image1 from "../images/Agos.png";
+import image2 from "../images/deffff.png";
+import image3 from "../images/girls4.png";
+import smile from "../images/smile.png";
+import processIce from "../images/gelatoProcess.png";
+import blueContainer from "../assets/blueWood.svg";
+import blueContainerPhone from "../assets/blueWoodPhoneOriginal.svg";
+import lemonPhoto from "../images/lemonAbout.png";
+import pinkFrame from "../assets/pinkWood.svg";
+import pinkFramePhone from "../assets/pinkWoodPhone.svg";
+import bananaFarm from "../images/farmBanana.png";
+import cornAbout from "../images/cornAboutUs.png";
+import FrameWoodWhite from "../components/FrameWoodWhite";
+import GelatoCorn from "../components/gelatoCorn";
 
 function AboutUs() {
   return (
@@ -77,17 +77,13 @@ function AboutUs() {
             </div>
           </Col>
         </Row>
-        <Row
-          className="gelatoProcess "
-          style={{ marginBottom: "0px" }}
-        >
+        <Row className="gelatoProcess " style={{ marginBottom: "0px" }}>
           <Col style={{ marginBottom: "0px" }}>
             <Image
               src={processIce}
               alt="Gelato Process"
               className="gelato-process"
             />
-           
           </Col>
         </Row>
 
