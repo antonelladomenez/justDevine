@@ -1,16 +1,15 @@
 import React from "react";
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
-import Menu from "./components/Menu";
-import "./styles/Flavours.css"; 
-import image1 from "./images/Rectangle 21.png"; 
-import image2 from "./assets/gelatoFlavours.svg"; 
-import image3 from "./assets/sorbetFlavours.svg"; 
-import image4 from "./images/Rectangle 22 (1).png"; 
-import woodFrame1 from "./images/frameWood.png";
-import woodFramePhone from "./images/frameWoodPhone.png";
-import "./styles/Flavours.css";
-import FrameWoodWhite from "./components/FrameWoodWhite";
-import GelatoCorn from "./components/gelatoCorn";
+import Menu from "../components/Menu";
+import "../styles/Flavours.css"; 
+import image1 from "../images/Rectangle 21.png"; 
+import image2 from "../assets/gelatoFlavours.svg"; 
+import image3 from "../assets/sorbetFlavours.svg"; 
+import image4 from "../images/Rectangle 22 (1).png"; 
+import woodFrame1 from "../images/frameWood.png";
+import woodFramePhone from "../images/frameWoodPhone.png";
+import FrameWoodWhite from "../components/FrameWoodWhite";
+import GelatoCorn from "../components/gelatoCorn";
 
 function Flavours() {
   return (

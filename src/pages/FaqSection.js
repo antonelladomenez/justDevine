@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Accordion, Button } from "react-bootstrap";
-import "./styles/FAQs.css"; // Puedes crear un archivo CSS para estilos adicionales
-import Menu from "./components/Menu";
-import FrameWoodWhite from "./components/FrameWoodWhite";
-import Footer from "./components/Footer";
+import "../styles/FAQs.css"; // Puedes crear un archivo CSS para estilos adicionales
+import Menu from "../components/Menu";
+import FrameWoodWhite from "../components/FrameWoodWhite";
+import Footer from "../components/Footer";
 
 function FaqSection() {
   const faqs = [
